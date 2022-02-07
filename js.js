@@ -23,7 +23,7 @@
 
 
 // 4) Write a function that accepts 3 parameters: 2 number and a name.  The function
-//    should add both numbers and return a string of "{name}'s number is {number}".
+//    should add both numbers and return a string of "{NAME}'s number is {NUMBER}".
 
 
 // 5) Invoke the function and save it's result in a variable, then console log the
@@ -45,11 +45,11 @@
 
 
 // 10) Write a function that first, randomly generates a number between 1 & 100 and
-//     saves it in a variable called r.  Second, use r (radius) to find the area of a circle.
+//     saves it in a variable called r.  Second, find the area of a circle with radius r. 
 //     Third, round the result to 2 decimal spaces and console log the result. 
 
 
-// 11) Use addEventListener to listen for a click and turns the event target's
+// 11) Use addEventListener to listen for a click and turns the event's target's
 //     text into a different color. 
 
 
