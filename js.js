@@ -83,4 +83,4 @@
 //          -a p with the lyrics of the song the user searched for
 
 
-// 18) compress you project into a zip file and send it to me and you're done :)
+// 18) Rename your root folder to '{YOUR_NAME} js-test'.  Compress it into a zip file and send it to me and you're done :)
