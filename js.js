@@ -2,27 +2,35 @@
 // JS TEST FINAL
 // --------------------------------------------
 
-// 1) Start by linking this js file to your index.html file.  What is the correct
-//    place to insert most JS files?
+// A quick not before you start: When you see the {THIS_SYNTAX} syntax, you should use
+// the value that the words describe.  For example: "I am a {PROFFESION}", should be 
+// answered as "I am a student"
+
+// 1) Start by linking this js file in your index.html file.  What is the correct
+//    place to add your script element, where you link your JS file?
 
 
 
-// 2) Declare 5 variables each with a different variable type as it's value.
+// 2) Declare 5 variables.  Each should have a value with a different type.
 
 
 
 // 3) Next we will write conditional statements. Write:
-//    a) an if else statement that checks your boolean variable and console logs 
-//       your string variable if true and otherwise console logs false
-//    b) a ternary statement ( ? : ) to check if your number variable is greater 
-//       than 5. Console log true if it is and false if it isn't.
-//    c) a conditional of your choice that finds out if your 'string' 
-//       variable is of type string and your 'number' variable is a number. If both are 
-//       true console.log('all types are correct')
+
+//    a) an if else statement that checks a true or false statement, Then 
+//       it should console log 'Var was true!' if true and otherwise console logs 
+//       'Var was false'.
+
+//    b) a ternary statement to check if a number variable is greater 
+//       than 5. Console log 'that is a big number' if it is and 'small num' if it isn't.
+
+//    c) a conditional of your choice that finds out if a 'string' variable is of 
+//       type string and a 'number' variable is type 'number'. If both are true 
+//       console.log('all types are correct')
 
 
 
-// 4) Write a function that accepts 3 parameters: 2 number and a name.  The function
+// 4) Write a function that accepts 3 parameters: 2 numbers and a name.  The function
 //    should add both numbers and return a string of "{NAME}'s number is {NUMBER}".
 
 
@@ -41,24 +49,25 @@
 
 
 // 9) Create a node list that selects every p in our HTML file. Then use the forEach
-//    method to remove the class 'p-empty' and add text that say 'content here'
+//    method to remove the class 'p-empty' and add text that say 'text content here'
 
 
 // 10) Write a function that first, randomly generates a number between 1 & 100 and
-//     saves it in a variable called r.  Second, find the area of a circle with radius r. 
-//     Third, round the result to 2 decimal spaces and console log the result. 
+//     saves it in a variable called r.  Second, the function should find the area
+//     of a circle with radius r.  Third, round the result to 2 decimal spaces and
+//     console log the result. 
 
 
-// 11) Use addEventListener to listen for a click and turns the event's target's
-//     text into a different color. 
+// 11) Use addEventListener to listen for a click. The callback should turn the 
+//     event target's text into a different color. 
 
 
 // 12) Create a for loop that console logs all the even numbers up to 22 not 
-//     including 0. Write the same loop using do...while 
+//     including 0.
 
 
 // 13) Create an array with at least 4 values in it (use both at least 1 string
-//     and 1 number).  Then push another value into the array.  
+//     and 1 number).  Then use the push mehtod to add another value into the array.  
 
 
 // 14) Replace the 2nd index position value with 44.
@@ -67,9 +76,9 @@
 // 15) Filter the array to only contain numbers.
 
 
-// 16) Create an object that describes something you like and contains a string,
-//     a number, an array and an object value inside it.  Lastly, create a method attached
-//     to the object.
+// 16) Create an object. It should have property value pairs that describe 
+//     something you like, a number, an array and an object value inside it.  
+//     Lastly, create a method attached to the object.
 
 
 // 17) Create 2 input fields where the user can search for a song and an artist. Then
@@ -82,5 +91,8 @@
 //          -a h3 with artist name
 //          -a p with the lyrics of the song the user searched for
 
+//     Now make the button call your render function with the data you fetched.  
 
-// 18) Rename your root folder to '{YOUR_NAME} js-test'.  Compress it into a zip file and send it to me and you're done :)
+
+// 18) Rename your root folder to '{YOUR_NAME} js-test'.  Compress it into a zip file 
+//     and send it to me and you're done :)
